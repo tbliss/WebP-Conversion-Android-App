@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent" 
+	android:background="#ebebeb" >
+	<ImageView
+  		android:id="@+id/imageview_1"
+		android:layout_width="wrap_content"
+  		android:layout_height="wrap_content"
+  		android:adjustViewBounds="true" />
+	<LinearLayout
+	  		android:layout_width="fill_parent"
+	  		android:layout_height="wrap_content" 
+	  		android:orientation="horizontal"
+	  		android:layout_alignParentBottom="true"
+	  		style="@android:style/ButtonBar" >
+	  		<Button
+	  			android:id="@+id/button_convert"
+	  			android:text="@string/convert"
+		      android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				style="@style/ButtonStyle"
+				android:layout_weight="1" />
+			<Button
+	  			android:id="@+id/button_retake"
+	  			android:text="@string/retake"
+		   		android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				style="@style/ButtonStyle"
+				android:layout_weight="1" />
+	</LinearLayout>
+</RelativeLayout>
+
+<!-- 
+  		android:maxHeight="250dp"
+  		android:maxWidth="250dp"
+  		android:layout_alignParentTop="true"
+ -->

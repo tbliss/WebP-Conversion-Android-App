@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:background="#ebebeb" >
+	<ImageView
+  		android:id="@+id/imageview_micr"
+		android:layout_width="wrap_content"
+  		android:layout_height="wrap_content"
+  		android:adjustViewBounds="true" />
+	<LinearLayout
+	    android:id="@+id/padding1"
+		android:layout_width="fill_parent"
+    	android:layout_height="60dp" 
+    	android:layout_below="@id/imageview_micr" />
+	<TextView 
+	    android:id="@+id/micr_text"
+	    android:layout_height="wrap_content"
+	    android:layout_width="wrap_content"
+	    android:layout_below="@+id/padding1"
+	    android:textColor="#252525" />
+	<LinearLayout
+	  		android:layout_width="fill_parent"
+	  		android:layout_height="wrap_content" 
+	  		android:orientation="horizontal"
+	  		android:layout_alignParentBottom="true"
+	  		style="@android:style/ButtonBar" >
+	  		<Button
+	  			android:id="@+id/button_home"
+	  			android:text="@string/home"
+		   		android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_weight="1"
+				style="@style/ButtonStyle" />
+			<Button
+	  			android:id="@+id/button_retake_micr"
+	  			android:text="@string/retake"
+		   		android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_weight="1"
+				style="@style/ButtonStyle" />
+	</LinearLayout>
+</RelativeLayout>

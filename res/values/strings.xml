@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, WebPConv!</string>
+    <string name="app_name"><b>WebP Conversion App</b></string>
+    <string name="convert">Convert</string>
+    <string name="retake">Retake</string>
+    <string name="home">Home</string>
+    <string name="welcome_message">\n<b>Take picture:</b> Opens camera to take picture of check then converts to WebP format and sends to server to be scanned
+                                    \n\n<b>Connect to server:</b> Connects, waits 5 seconds, disconnects
+                                    \n\n<b>Run Tests:</b> Runs conversion tests, logs results</string>
+</resources>

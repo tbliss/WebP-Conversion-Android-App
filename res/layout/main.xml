@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ebebeb" >
+	<TextView  
+	   android:id="@+id/text_view_1"
+	   android:paddingTop="20dp"
+	   android:layout_width="fill_parent" 
+	   android:layout_height="wrap_content" 
+	   android:gravity="center_horizontal"
+	   android:text="@string/hello"
+	   android:textColor="#252525"
+	   />
+	<TextView  
+	   android:id="@+id/text_view_2"
+	   android:layout_width="fill_parent" 
+	   android:layout_height="wrap_content" 
+	   android:gravity="center_horizontal"
+	   android:text="@string/welcome_message"
+	   android:layout_below="@id/text_view_1"
+	   android:textColor="#252525"
+	   android:paddingBottom="20dp"
+	   />
+	<Button
+	   android:id="@+id/take_picture_custom"
+	   android:layout_width="wrap_content"
+	   android:layout_height="wrap_content"
+	   style="@style/ButtonStyle"
+	   android:text="Take Picture (Custom)"
+	   android:layout_centerHorizontal="true"
+	   android:layout_below="@id/text_view_2"
+	   android:layout_marginTop="20dp"
+	   />
+	<Button
+	   android:id="@+id/take_picture_native"
+	   android:layout_width="wrap_content"
+	   android:layout_height="wrap_content"
+	   style="@style/ButtonStyle"
+	   android:text="Take Picture (Native)"
+	   android:layout_centerHorizontal="true"
+	   android:layout_below="@id/take_picture_custom"
+	   android:layout_marginTop="20dp"
+	   />
+	<Button
+	   android:id="@+id/connect_server"
+	   android:layout_width="wrap_content"
+	   android:layout_height="wrap_content"
+	   style="@style/ButtonStyle"
+	   android:text="Connect to Server"
+	   android:layout_centerHorizontal="true"
+	   android:layout_below="@id/take_picture_native"
+	   android:layout_marginTop="20dp"
+	   />
+	<Button
+	   android:id="@+id/run_tests"
+	   android:layout_width="wrap_content"
+	   android:layout_height="wrap_content"
+	   style="@style/ButtonStyle"
+	   android:text="Run Tests"
+	   android:layout_centerHorizontal="true"
+	   android:layout_below="@id/connect_server"
+	   android:layout_marginTop="20dp"
+	   />
+
+</RelativeLayout>
