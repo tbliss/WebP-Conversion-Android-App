@@ -1,1 +1,7 @@
-test
+WebP Conversion Android Application
+
+Uses Android NDK to convert image taken with camera to WebP format
+and saves to SD card.
+
+Note: You will need to set up Android NDK on your machine to compile
+source and generate libraries to use application.
